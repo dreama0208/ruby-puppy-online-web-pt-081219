@@ -5,8 +5,12 @@ class Dog
 
   @@all = []
 
-  def initialize
+  def save
     @@all << self
+  end
+
+  def initialize
+    save
   end
 
   def self.all
