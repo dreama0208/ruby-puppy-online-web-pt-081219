@@ -10,6 +10,7 @@ class Dog
   end
 
   def initialize
+    @name = name
     save
   end
 
